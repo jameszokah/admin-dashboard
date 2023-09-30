@@ -1,5 +1,5 @@
 {
-  "name": "tailadmin-free-nextjs",
+  "name": "yamazon-admin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.23.5",
+    "@clerk/themes": "^1.7.6",
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/unitedstates": "^1.0.1",
     "@types/node": "20.4.8",
@@ -16,16 +18,21 @@
     "@types/react-dom": "18.2.7",
     "apexcharts": "^3.41.1",
     "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "jsvectormap": "^1.5.3",
-    "next": "13.4.12",
+    "lucide-react": "^0.279.0",
+    "next": "^13.5.1",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "18.2.0",
     "react-jvectormap": "^0.0.16",
+    "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.1.6"
   }
 }

@@ -1,7 +1,16 @@
+import Image from "next/image";
+
 const Loader = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-white">
-      <div className="h-16 w-16 animate-spin rounded-full border-4 border-solid border-primary border-t-transparent"></div>
+    <div className="flex h-screen items-center justify-center dark:bg-[#fff] bg-[#100f31]">
+      <div className="h-16 w-16 animate-pulse rounded-full">
+      <Image
+            width={70}
+            height={32}
+            src={"/images/logo/logo.png"}
+            alt="Logo"
+          />  
+      </div>
     </div>
   );
 };
